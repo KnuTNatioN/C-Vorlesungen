@@ -94,8 +94,8 @@ in der Regel sind erstmal ALLE Variablen signed (also Negativ und Positiv)
 - Zeichenletten in doppelten Anführungszeichen
   - zB.: "Hello World"
 - Sonderzeichen: (Steuerzeichen)
-  - \a    Klingelzeichen
-  - \b    Backspace
+  - \a    Klingelzeichen  (alt)
+  - \b    Backspace (nur für Hardware wichtig??)
   - \d    Seitenvorschub
   - \n    Zeilenumbruch
   - \r    Wagenrücklauf

@@ -125,7 +125,7 @@ void *malloc(size_t count, size_t size)
 int main() {
     char* buf = calloc(4, sizeof(char));
     /* gibt einen Pointer auf deinen Speicherbereich mit der 4fachen größe von Char, zurück */
-    if(buf ==NULL) {
+    if(buf == NULL) {
         /*error handling*/
         fprintf(stderr, "Fehler: Konnte Speicher nicht reservieren. \n");
         return 1;

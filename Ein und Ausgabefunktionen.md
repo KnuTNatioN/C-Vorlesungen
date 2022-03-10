@@ -82,14 +82,14 @@ Formatanweisung | Erklärung
 ### Erweiterte Formatanweisung
 - ermöglicht z.B.: numerische Werte, Spaltenweise auszugeben oder die Anzahl der Dezimalstellen zu begrenzen.
 - Syntax:
-    `` %[flags][width][.perci][1]type
+    ``` %[flags][width][.perci]type ```
   - flags:
     - -: linksbündige Ausgabe
     - +: Vorzeichenausgabe auch bei positiven Zahlen
-    - #: Anzernative Darstellung (siehe man-page)
+    - #: Alternative Darstellung (siehe man-page)
     - 0: Auffüllen mit Nummen für Breite
     - Leerzeichen: Leerzeichen vor positiver Zahl
-  - width: minimale Breite des Ausgabefeldes
+  - width: maximage Breite der ausgeschriebenen variable inklusive auffüllung
     - wenn Ausgabe größer: Breitenangabe wird ignoriert
     - wenn Ausgabe kleiner: linksbündig werden Leerzeichen eingefügt
   - .perci: Anzahl der auszugebenen Dezimalstellen bei Fließkommazahlen
